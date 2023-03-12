@@ -1,0 +1,22 @@
+.shapka {
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px black solid;
+  background-color: black;
+  box-shadow: 10px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+
+.textvshapke {
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+  font-weight: bolder;
+}

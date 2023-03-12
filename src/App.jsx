@@ -1,4 +1,4 @@
-import {Header} from "./components/Header";
+import {Header} from "./components/Header/Header";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";

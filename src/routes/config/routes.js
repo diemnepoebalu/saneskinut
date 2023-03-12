@@ -1,14 +1,14 @@
-import ShoppingCardPage from "../../pages/ShoppingCardPage";
+import ProductPage from "../../pages/ProductPage";
 import MainPage from "../../pages/MainPage";
 
-export const routes=[
+export const routes = [
     {
-        element:<ShoppingCardPage/>,
-        path:'card'
+        element: <ProductPage/>,
+        path: 'product'
     },
     {
-        element:<MainPage/>,
-        path:'/'
+        element: <MainPage/>,
+        path: '/'
     }
 ]
 

@@ -1,0 +1,43 @@
+.searchBox {
+  background: whitesmoke;
+  height: 35px;
+  border-radius: 40px;
+  padding: 10px;
+
+  &:hover > .searchTxt {
+    width: 202px;
+    padding: 0 6px;
+  }
+}
+
+.searchTxt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: black;
+  font-size: 16px;
+  line-height: 1px;
+  width: 0;
+  transition: all 0.4s ease-out;
+}
+
+.searchBtn {
+  color: black;
+  float: right;
+  border: 1px whitesmoke solid;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding-bottom: 7px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.fa-magnifying-glass {
+  font-size: 20px;
+}
