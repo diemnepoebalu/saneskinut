@@ -5,23 +5,27 @@ import SearchBox from "../SearchBox/SearchBox";
 
 export const Header = () => {
     return (
-        <header className="wrapper">
-            <div className={`${styles.shapka} container`}>
-                <div className={styles.logo}>
-                    <Link to='/'>
-                        <i className="fa-solid fa-wind"></i>
-                        SK8SHOES
-                    </Link>
+        <header className={`${styles.wrapper} wrapper`}>
+            <div className={`${styles.content} content`}>
+                <div className={styles.left}>
+                    <div className={styles.logo}>
+                        <Link to='/'>
+                            <i className="fa-solid fa-wind"></i>
+                            SK8SHOES
+                        </Link>
+                    </div>
+                    <SearchBox />
                 </div>
-                <SearchBox />
-                <div className="textvshapke">
-                    <div className="text2 korzinka">
+                <div className={styles.actions}>
+                    <div className={styles.cart}>
                         <Link to='/card'>
                             <i className="fa-solid fa-cart-shopping"></i>
                         </Link>
                     </div>
-                    <div className="text1">
-                        <i className="fa-solid fa-door-open"></i>
+                    <div className={styles.login}>
+                        <Link to={'/'}>
+                            <i className="fa-solid fa-door-open"></i>
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -1,17 +1,18 @@
 import React from 'react';
 import ProductButton from "./ui/ProductButton";
 import {useCard} from "../../provider/hooks/useCard";
+import styles from './ProductItem.module.scss'
 
-const ProductItem = ({price,title,genderType,category,image,id}) => {
+const ProductItem = ({price, title, genderType, category, image, id}) => {
     const {cardData, deleteItem} = useCard()
     return (
-        <div>
-            <div className="products__item">
-                <img className="products-img" width={250} height={250} src={image} alt="img" />
-                <div className="box">
-                    <div className="price">{price}$</div>
-                    <ProductButton id={id}/>
-                </div>
+        <div className={styles.card}>
+            <div className={styles.image}>
+                <img src={image} alt="img"/>
+            </div>
+            <div className={styles.info}>
+                <div className={styles.feature}>Стоимость: <span>{price}$</span></div>
+                <ProductButton id={id}/>
             </div>
         </div>
     );
