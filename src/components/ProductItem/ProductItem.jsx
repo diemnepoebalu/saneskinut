@@ -1,8 +1,9 @@
 import React from 'react';
 import ProductButton from "./ui/ProductButton";
+import {useCard} from "../../provider/hooks/useCard";
 
 const ProductItem = ({price,title,genderType,category,image,id}) => {
-
+    const {cardData, deleteItem} = useCard()
     return (
         <div>
             <div className="products__item">

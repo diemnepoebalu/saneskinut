@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {CardContext} from "../CardContext";
+import {CardContext} from "../context/CardContext";
 
 const CardProvider = ({children}) => {
     const [cardData, setCardData] = useState([])
