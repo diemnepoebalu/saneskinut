@@ -33,8 +33,20 @@
 
 .feature {
   font-size: 1.3em;
+  text-align: center;
+  margin-top: 0.5em;
 
   span {
     font-weight: 600;
+    font-size: 1.3em;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
+}
+
+.action {
+  margin: 1em 0;
+  text-align: center;
 }

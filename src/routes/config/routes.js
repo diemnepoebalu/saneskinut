@@ -1,10 +1,10 @@
-import ProductPage from "../../pages/ProductPage";
+import ProductPage from "../../pages/ProductPage/ProductPage";
 import MainPage from "../../pages/MainPage";
 
 export const routes = [
     {
         element: <ProductPage/>,
-        path: 'product'
+        path: 'product/:id'
     },
     {
         element: <MainPage/>,
