@@ -1,24 +1,17 @@
-import { Header } from "./Components/Header";
-import Slider from "./Components/Slider";
+import {Header} from "./components/Header";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Zagolovok } from "./Components/MainPage";
-import { Links } from "./Components/Links";
+import AppRoutes from "./routes/UI/AppRoutes";
 
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Links />
-      <div className="main_slider">
-        <Slider />
-      </div>
-      <Zagolovok />
-
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <AppRoutes/>
+        </div>
+    );
 }
 
 export default App;

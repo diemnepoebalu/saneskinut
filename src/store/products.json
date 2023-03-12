@@ -1,0 +1,50 @@
+[
+  {
+    "id": 0,
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/44c21f0a-4290-40aa-be0e-546148ae7979/air-jordan-1-hi-flyease-mens-shoes-VjGcGX.png",
+    "title": "Jordan Boots",
+    "types": "мужские",
+    "price": "10 090 руб.",
+    "category": 1
+  },
+  {
+    "id": 1,
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/44c21f0a-4290-40aa-be0e-546148ae7979/air-jordan-1-hi-flyease-mens-shoes-VjGcGX.png",
+    "title": "Jordan Boots",
+    "types": "мужские",
+    "price": "10 090 руб.",
+    "category": 1
+  },
+  {
+    "id": 2,
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/44c21f0a-4290-40aa-be0e-546148ae7979/air-jordan-1-hi-flyease-mens-shoes-VjGcGX.png",
+    "title": "Jordan Boots",
+    "types": "мужские",
+    "price": "10 090 руб.",
+    "category": 1
+  },
+  {
+    "id": 3,
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/44c21f0a-4290-40aa-be0e-546148ae7979/air-jordan-1-hi-flyease-mens-shoes-VjGcGX.png",
+    "title": "Jordan Boots",
+    "types": "мужские",
+    "price": "10 090 руб.",
+    "category": 1
+  },
+  {
+    "id": 4,
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/44c21f0a-4290-40aa-be0e-546148ae7979/air-jordan-1-hi-flyease-mens-shoes-VjGcGX.png",
+    "title": "Jordan Boots",
+    "types": "мужские",
+    "price": "10 090 руб.",
+    "category": 1
+  },
+  {
+    "id": 5,
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/44c21f0a-4290-40aa-be0e-546148ae7979/air-jordan-1-hi-flyease-mens-shoes-VjGcGX.png",
+    "title": "Jordan Boots",
+    "types": "мужские",
+    "price": "10 090 руб.",
+    "category": 1
+  }
+]
