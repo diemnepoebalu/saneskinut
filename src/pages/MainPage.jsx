@@ -1,6 +1,6 @@
 import React from 'react';
-import Slider from "../components/Slider";
-import {Products} from "../components/Products";
+import Slider from "../components/Slider/Slider";
+import {Products} from "../components/Products/Products";
 
 const MainPage = () => {
     return (

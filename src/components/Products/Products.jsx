@@ -1,15 +1,14 @@
 import React from 'react'
-import store from "../store/products.json";
-import ProductItem from "./ProductItem/ProductItem";
+import store from "../../store/products.json";
+import ProductItem from "../ProductItem/ProductItem";
+import styles from './Products.module.scss'
 
 export const Products = () => {
 
     return (
-        <div className="preview-container">
-            <h2 className='products__header'>
-                Товары
-            </h2>
-            <div className="parent">
+        <section className={`${styles.wrapper} wrapper`}>
+            <h2 className={`${styles.title} content`}>Товары</h2>
+            <div className={`${styles.content} content`}>
                 {store.map(item =>
                     <ProductItem
                         price={item.price}
@@ -22,6 +21,6 @@ export const Products = () => {
                     />
                 )}
             </div>
-        </div>
+        </section>
     )
 }

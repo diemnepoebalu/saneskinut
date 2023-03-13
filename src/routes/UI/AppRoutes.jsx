@@ -6,7 +6,7 @@ const AppRoutes = () => {
     return (
         <>
             <Routes>
-                {routes.map(config=>
+                {routes.map(config =>
                     <Route
                         path={config.path}
                         element={config.element}
