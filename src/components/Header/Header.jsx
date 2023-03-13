@@ -18,7 +18,7 @@ export const Header = () => {
                 </div>
                 <div className={styles.actions}>
                     <div className={styles.cart}>
-                        <Link to='/card'>
+                        <Link to='/cart'>
                             <i className="fa-solid fa-cart-shopping"></i>
                         </Link>
                     </div>

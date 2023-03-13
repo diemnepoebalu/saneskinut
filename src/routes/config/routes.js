@@ -1,5 +1,6 @@
 import ProductPage from "../../pages/ProductPage/ProductPage";
 import MainPage from "../../pages/MainPage";
+import ShoppingCartPage from "../../pages/ShoppingCartPage/ShoppingCartPage";
 
 export const routes = [
     {
@@ -9,6 +10,10 @@ export const routes = [
     {
         element: <MainPage/>,
         path: '/'
+    },
+    {
+        element: <ShoppingCartPage/>,
+        path: 'cart'
     }
 ]
 

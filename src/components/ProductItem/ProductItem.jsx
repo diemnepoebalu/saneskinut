@@ -6,6 +6,7 @@ import {Link} from "react-router-dom";
 
 const ProductItem = ({price, title, genderType, category, image, id}) => {
     const {cardData, deleteItem} = useCard()
+
     return (
         <div className={styles.card}>
             <div className={styles.image}>
@@ -20,7 +21,7 @@ const ProductItem = ({price, title, genderType, category, image, id}) => {
                     </Link>
                 </div>
                 <div className={styles.feature}>
-                    {price}
+                    {price} руб
                 </div>
                 <div className={styles.action}>
                     <ProductButton id={id}/>
