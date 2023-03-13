@@ -1,7 +1,7 @@
 import {useContext} from "react";
 import {CardProvider} from "../UI/CardProvider";
-import {checkProductById, getProductIndexById, removeItemByIndex} from "../../helpers/helpers";
 import {CardContext} from "../context/CardContext";
+import {checkProductById, getProductIndexById, removeItemByIndex} from "../../helpers/products/products";
 
 
 export const useCard = () => {

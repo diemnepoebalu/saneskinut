@@ -1,15 +1,14 @@
 import React, {useContext} from 'react';
 import {useCard} from "../../../provider/hooks/useCard";
+import styles from './ProductButton.module.scss'
 
 const ProductButton = ({id}) => {
     const {cardData, addItem} = useCard()
-    console.log(cardData)
+
     return (
-        <div className="cart-btn" onClick={() => {
-            addItem(id)
-        }}>
-            TO CART
-        </div>
+        <button className={styles.button} onClick={() => addItem(id)}>
+            В корзину
+        </button>
     );
 };
 

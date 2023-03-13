@@ -1,0 +1,52 @@
+.card {
+  max-width: 600px;
+  flex-basis: 26%;
+  flex-grow: 1;
+  box-shadow: 1px 3px 18px rgba(0, 0, 0, 0.08);
+  background-color: #FFFFFF;
+  border-radius: 1em;
+  overflow: hidden;
+  padding: 0.5em;
+}
+
+.image {
+  height: 200px;
+  border-radius: inherit;
+  overflow: hidden;
+  transition: transform 0.2s ease-out;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &:hover {
+    transform: scale(102%);
+  }
+}
+
+.info {
+  margin-top: 1em;
+}
+
+.feature {
+  font-size: 1.3em;
+  text-align: center;
+  margin-top: 0.5em;
+
+  span {
+    font-weight: 600;
+    font-size: 1.3em;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.action {
+  margin: 1em 0;
+  text-align: center;
+}

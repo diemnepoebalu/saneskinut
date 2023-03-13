@@ -1,0 +1,43 @@
+.wrapper {
+  border: 1px black solid;
+  background-color: black;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
+}
+
+.left {
+  display: flex;
+  column-gap: 4em;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #F5F5F5;
+  transition: filter 0.2s ease-out;
+
+  &:hover {
+    filter: brightness(80%);
+  }
+}
+
+.actions {
+  color: #F5F5F5;
+  display: flex;
+  column-gap: 2em;
+}
+
+.cart, .login {
+  font-size: 24px;
+  transition: filter 0.2s ease-out;
+
+  &:hover {
+    filter: brightness(80%);
+  }
+}
