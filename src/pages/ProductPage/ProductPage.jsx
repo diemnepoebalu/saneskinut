@@ -28,6 +28,15 @@ const ProductPage = () => {
                         <li>
                             <span>Категория</span> {product.category}
                         </li>
+                        <li>
+                            <span>Высота</span> {product.height}
+                        </li>
+                        <li>
+                            <span>Материал</span> {product.Material}
+                        </li>
+                        <li>
+                            <span>Брэнд</span> {product.Brand}
+                        </li>
                     </ul>
                 </div>
             </div>
