@@ -6,10 +6,9 @@
     "types": "мужские",
     "price": "7020",
     "category": 1,
-    "height": "",   
-    "Material": "",   
-    "Brand": "",
-    "Unical": ""
+    "height": "Высокие",   
+    "Material": "Ткань",   
+    "Brand": "Nike"
   },
   {
     "id": 1,
@@ -18,10 +17,9 @@
     "types": "мужские",
     "price": "6400",
     "category": 1,
-    "height": "",   
-    "Material": "",   
-    "Brand": "",
-    "Unical": ""
+    "height": "Высокие",   
+    "Material": "Ткань",   
+    "Brand": "LAKAI"
   },
   {
     "id": 2,
@@ -30,10 +28,9 @@
     "types": "мужские",
     "price": "5990",
     "category": 1,
-    "height": "",   
-    "Material": "",   
-    "Brand": "",
-    "Unical": ""
+    "height": "низкие",   
+    "Material": "Ткань/кожа",   
+    "Brand": "ADIDAS"
   },
   {
     "id": 3,
@@ -42,10 +39,9 @@
     "types": "женские",
     "price": "6800",
     "category": 1,
-    "height": "",   
-    "Material": "",   
-    "Brand": "",
-    "Unical": ""
+    "height": "Высокие",   
+    "Material": "Кожа",   
+    "Brand": "ETNIES"
   },
   {
     "id": 4,
@@ -54,10 +50,9 @@
     "types": "мужские",
     "price": "11520",
     "category": 1,
-    "height": "",   
-    "Material": "",   
-    "Brand": "",
-    "Unical": ""
+    "height": "Высокие",   
+    "Material": "Ткань/резина",   
+    "Brand": "Nike"
   },
   {
     "id": 5,
@@ -66,9 +61,8 @@
     "types": "женские",
     "price": "5200",
     "category": 1,
-    "height": "",   
-    "Material": "",   
-    "Brand": "",
-    "Unical": ""
+    "height": "низкие",   
+    "Material": "Ткань",   
+    "Brand": "ETNIES"
   }
 ]

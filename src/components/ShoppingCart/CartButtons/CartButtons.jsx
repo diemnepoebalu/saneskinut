@@ -11,7 +11,7 @@ const CartButtons = ({data}) => {
             <AiFillPlusCircle
                 onClick={()=>{addItem(data.id)}}
                 style={{width: '20px'}}/>
-            <div className={styles.count}>count:{data.count}</div>
+            <div className={styles.count}>количество:{data.count}</div>
             <AiFillMinusCircle
                 onClick={()=>{deleteItem(data.id)}}
                 style={{width: '20px'}}/>
