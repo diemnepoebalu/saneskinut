@@ -2,10 +2,12 @@ import React from 'react';
 import {useParams} from "react-router-dom";
 import store from "../../store/products.json";
 import styles from './ProductPage.module.scss'
+import { useCard } from '../../provider/hooks/useCard';
+
 
 const ProductPage = () => {
     const {id} = useParams()
-
+    const {cardData, addItem} = useCard()
     const product = store.find(item => item.id == id)
 
     return (
@@ -39,6 +41,9 @@ const ProductPage = () => {
                         </li>
                     </ul>
                 </div>
+                <button className={styles.button} onClick={() => addItem(id)}>
+                    В корзину
+                </button>
             </div>
         </section>
     );

@@ -11,7 +11,7 @@ const PriceInfo = () => {
 
     return (
         <div className={styles.container}>
-            Total <br/>
+            Итого: <br/>
             {countPrice}
         </div>
     );
